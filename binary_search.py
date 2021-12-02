@@ -1,6 +1,8 @@
 def binary_search(nums: list[int], target: int) -> int:
     '''
     Return the index of a value in a sorted array. If not found, it returns -1
+
+    Time complexity is log(n)
     '''
     upper_bound = len(nums) - 1
     lower_bound = 0
